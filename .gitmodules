@@ -1,3 +1,6 @@
 [submodule "TilEm-Mirror"]
 	path = TilEm-Mirror
 	url = https://github.com/pateltej/TilEm-Mirror.git
+[submodule "ArTICL"]
+	path = ArTICL
+	url = https://github.com/KermMartian/ArTICL.git
