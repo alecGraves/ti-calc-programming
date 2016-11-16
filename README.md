@@ -18,4 +18,4 @@ ArTICL: Arduino TI Calculator Linking Library
 
 ### For Building Programs
 
-[SourceCoder3](https://www.cemetech.net/sc/) is an incredible web app that can be used to bulid ti calculator programs.
+[SourceCoder 3](https://www.cemetech.net/sc/) is an incredible web app that can be used to bulid ti calculator programs.
