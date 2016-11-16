@@ -19,3 +19,5 @@ ArTICL: Arduino TI Calculator Linking Library
 ### For Building Programs
 
 [SourceCoder 3](https://www.cemetech.net/sc/) is an incredible web app that can be used to bulid ti calculator programs.
+
+http://clrhome.org/catalog/ Is a great guide on the tokens used in TI BASIC
