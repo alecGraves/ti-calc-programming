@@ -1,4 +1,4 @@
-# ti-basic-programming
+# ti-calc-programming
 This is a side project that may be able to help out
 
 # Submodule Descriptions
