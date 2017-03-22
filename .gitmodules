@@ -4,3 +4,6 @@
 [submodule "ArTICL"]
 	path = ArTICL
 	url = https://github.com/KermMartian/ArTICL.git
+[submodule "basically-ti-basic"]
+	path = basically-ti-basic
+	url = https://github.com/thenaterhood/basically-ti-basic.git
