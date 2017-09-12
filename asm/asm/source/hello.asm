@@ -2,9 +2,9 @@
 #include "ti83plus.inc"
 #define    ProgStart    $9D95
 .list
-.org    ProgStart - 2
-    .db    t2ByteTok, tAsmCmp
-    b_call(_ClrLCDFull)
+.org    ProgStart - 2; address offset of where the program is loaded in to.
+    .db    t2ByteTok, tAsmCmp; special instruction for asm programs in TI's
+    b_call(_ClrLCDFull); clear the lcd and registers
     ld    hl, 0
     ld    (PenCol), hl
     ld    hl, msg
@@ -13,6 +13,8 @@
     ret
 
 msg:
-    .db "Hello world!", 0
+    ;this is a string that ends with a 0. 
+    .db "Hello world!", 0; .db specifies data.
 .end
-.end
+;.end; second one because tasm ignores the last line of a file
+;second one probably not needed because these tools use brass, a patched version.
